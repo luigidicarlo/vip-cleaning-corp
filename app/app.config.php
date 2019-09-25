@@ -5,8 +5,8 @@ define('TITLE', 'VIP Cleaning Corp');
 define('EMAIL_SUBJECT', 'New Contact Message');
 
 # DEV Environment
-define('HOST', 'http://localhost/vipcleaningcorp');
-define('EMAIL_TO', 'test@localhost');
+define('HOST', 'http://localhost:3500');
+define('EMAIL_TO', 'luigidicarlo@localhost');
 
 # PROD Environment
 // define('HOST', 'https://vipcleaningcorp.com');

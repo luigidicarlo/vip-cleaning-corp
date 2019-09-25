@@ -1,26 +1,32 @@
-<div class="row">
-    <div class="col-md-3 col-xs-3">
-        <p class="small">
-            <div class="bg-primary p-2 rounded text-center text-white d-inline">
-                <i style="width: 20px; height: 20px;" class="fa fa-phone text-center"></i>
-            </div>
-            &nbsp;+1 (786) 7075593
-        </p>
+<h2>
+    Connect with us
+</h2>
+<hr>
+<p class="lead">Reach out to us if you need anything.</p>
+<br>
+<div class="d-flex align-items-center justify-content-left">
+    <div style="height: 36px; width: 36px;" class="bg-primary rounded text-white mr-2 p-2">
+        <i class="fa fa-phone"></i>
     </div>
-    <div class="col-md-3 col-xs-3">
-        <p class="small">
-            <div class="bg-primary p-2 rounded text-center text-white d-inline">
-                <i style="width: 20px; height: 20px;" class="fa fa-facebook text-center"></i>
-            </div>
-            &nbsp;vipcleaningcorp
-        </p>
+    <p class="text-body mb-0">
+        +1 (786) 7075593
+    </p>
+</div>
+<br>
+<div class="d-flex align-items-center justify-content-left">
+    <div style="height: 36px; width: 36px;" class="bg-primary rounded text-white mr-2 p-2">
+        <i class="fa fa-address-card-o"></i>
     </div>
-    <div class="col-md-6 col-xs-6">
-        <p class="small">
-            <div class="bg-primary p-2 rounded text-center text-white d-inline">
-                <i style="width: 20px; height: 20px;" class="fa fa-envelope text-center"></i>
-            </div>
-            &nbsp;vipcleaningcorp2.0@gmail.com
-        </p>
+    <p class="text-body mb-0">
+        2079 South Kirkman Rd, Orlando, FL
+    </p>
+</div>
+<br>
+<div class="d-flex align-items-center justify-content-left">
+    <div style="height: 36px; width: 36px;" class="bg-primary rounded text-white mr-2 p-2">
+        <i class="fa fa-envelope"></i>
     </div>
+    <p class="text-body mb-0 text-truncate">
+        <a href="mailto:vipcleaning2.0@gmail.com">vipcleaning2.0@gmail.com</a>
+    </p>
 </div>
