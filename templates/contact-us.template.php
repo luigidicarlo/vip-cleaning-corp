@@ -6,14 +6,14 @@
             <p class="lead">
                 Please, fill out this form and we will be in touch with you as soon as possible.
             </p>
-            <form action="./app/email.service.php" method="post">
+            <form action="./app/email.service.php" method="post" id="contactForm">
                 <div class="form-group">
                     <label for="name">Name <span class="text-danger">*</span></label>
                     <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required autocomplete="off">
                 </div>
                 <div class="form-group">
                     <label for="last-name">Last Name <span class="text-danger">*</span></label>
-                    <input type="text" id="last-name" name="lastName" class="form-control" placeholder="Enter your last name" required autocomplete="off">
+                    <input type="text" id="lastName" name="lastName" class="form-control" placeholder="Enter your last name" required autocomplete="off">
                 </div>
                 <div class="form-group">
                     <label for="email">Email <span class="text-danger">*</span></label>
@@ -35,7 +35,7 @@
                 <br>
                 <div class="form-group">
                     <div class="text-center mx-auto">
-                        <input type="submit" value="Submit" name="submit" class="btn btn-primary">
+                        <input disabled="true" id="submitBtn" type="submit" value="Submit" name="submit" class="btn btn-primary">
                     </div>
                 </div>
             </form>
