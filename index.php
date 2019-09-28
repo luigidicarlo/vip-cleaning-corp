@@ -2,6 +2,9 @@
 
 <?php include_once('./templates/navbar.template.php'); ?>
 
+<?php #Header ?>
+<?php include_once('./templates/hero-header.template.php'); ?>
+
 <div class="container-fluid">
     <?php # Sections ?>
     <?php include_once('./templates/about-us.template.php'); ?>
