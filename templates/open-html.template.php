@@ -13,6 +13,7 @@
 
     <?php # CSS Stylesheets ?>
     <link rel="stylesheet" href="<?php echo HOST; ?>/node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php echo HOST; ?>/node_modules/aos/dist/aos.css">
     <link rel="stylesheet" href="<?php echo HOST; ?>/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo HOST; ?>/assets/css/style.css">
 </head>
