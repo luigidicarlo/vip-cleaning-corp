@@ -83,7 +83,7 @@
             </div>   
         </div>
     </div>
-    <div class="col-sm-6 col-xl-3 col-md-4 col-lg-3 p-2">
+    <div class="col-sm-6 col-xl-3 col-md-6 col-lg-3 p-2">
         <div data-aos="flip-left"
              data-aos-easing="ease-out-cubic"
              data-aos-duration="2000">    
