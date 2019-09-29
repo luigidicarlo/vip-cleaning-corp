@@ -1,0 +1,47 @@
+    .icon {
+        list-style: none;
+        color: blue;
+        margin: 0 auto;
+        width: 120px;
+        height: 120px;
+        line-height: 110px;
+        text-align: center;
+        border: 3px solid blue;
+        border-radius: 50%;
+        font-size: 60px;
+        position: relative;
+        transition: background-color 1000ms, color 1000ms;
+        display: block;
+    }
+    
+    .c {
+        padding: 1em 1em;
+    }
+    
+    .icon:hover {
+        border: solid 3px blue;
+        color: #fff;
+        cursor: pointer;
+        background-color: blue;
+        transition: background-color 1000ms, color 1000ms;
+    }
+    
+    .zoom {
+        /* Aumentamos la anchura y altura durante 2 segundos */
+        transition: width 1s, height 1s, transform 1s;
+        -moz-transition: width 1s, height 1s, -moz-transform 1s;
+        -webkit-transition: width 1s, height 1s, -webkit-transform 1s;
+        -o-transition: width 1s, height 1s, -o-transform 1s;
+    }
+    
+    .zoom:hover {
+        /* tranformamos el elemento al pasar el mouse por encima al doble de
+       su tamaño con scale(2). */
+        transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        /* Firefox */
+        -webkit-transform: scale(1.2);
+        /* Chrome - Safari */
+        -o-transform: scale(1.2);
+        /* Opera */
+    }
