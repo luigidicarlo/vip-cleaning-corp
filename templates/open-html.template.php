@@ -17,4 +17,4 @@
     <link rel="stylesheet" href="<?php echo HOST; ?>/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo HOST; ?>/assets/css/style.css">
 </head>
-<body><?php # Begin website body
+<body class="bg-light"><?php # Begin website body

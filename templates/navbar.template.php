@@ -3,27 +3,26 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon text-white"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
                 <a class="nav-link text-white" href="<?php echo HOST; ?>#">
-                    <i class="fa fa-home"></i> Home
+                    Home
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link text-white" href="<?php echo HOST; ?>#info">
-                    <i class="fa fa-info"></i> About Us
+                    About Us
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link text-white" href="<?php echo HOST; ?>#services">
-                    <i class="fa fa-briefcase"></i> Services
+                    Services
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link text-white" href="<?php echo HOST; ?>#contact">
-                    <i class="fa fa-handshake-o"></i> Contact Us
+                    Contact Us
                 </a>
             </li>
         </ul>

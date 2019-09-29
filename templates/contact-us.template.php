@@ -1,10 +1,10 @@
 <div id="contact"></div>
 <div class="about-info">
     <h1 class="text-center section-title pt-4">
-        Our Services
+        Contact Us
     </h1>
 </div>
-<section class="bg-light shadow my-2 p-4">
+<section class="bg-light shadow-sm my-2 p-4">
     <div class="row">
         <div class="col-md-5 col-xs-12">
             <h2>Get in touch</h2>

@@ -4,9 +4,13 @@
 		<div class="col-md-6">
 			<div class="about-info">
 				<h1 class="section-title pt-4">About Us</h1>
-				<p class="font-italic slogan">"For us our customers are first"</p>
+				<p class="font-italic slogan">
+					<span class="text-primary">"</span>
+						For us our customers are first
+					<span class="text-primary">"</span>
+				</p>
 				<p class="content-text">
-					VIP Cleaning is a cleaning company whose main objective is always to satisfy the needs of every client. We put at your disposal our highly qualified staff able to leave your place impeccably clean after work. Trust us, we are specialists in commercial and residential cleaning and even custom work!
+					VIP Cleaning is a cleaning company whose main objective is always to satisfy the needs of every client. We put at your disposal our highly qualified staff which is able to leave your place impeccably clean after work. Trust us, we are specialists in commercial and residential cleaning and even custom work!
 				</p>
 			</div>
 		</div>
