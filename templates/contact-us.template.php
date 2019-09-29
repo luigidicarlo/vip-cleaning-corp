@@ -1,7 +1,8 @@
-<section id="contact" class="bg-light shadow my-2 p-4">
-    <div class="row">
+<div id="contact"></div>
+<section class="bg-light shadow my-2 p-4">
+    <div class="row pt-4">
         <div class="col-md-5 col-xs-12">
-            <h2>Get in touch</h2>
+            <h2 class="pt-4">Get in touch</h2>
             <hr>
             <p class="lead">
                 Please, fill out this form and we will be in touch with you as soon as possible.

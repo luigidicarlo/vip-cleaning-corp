@@ -1,4 +1,4 @@
-<h2>
+<h2 class="pt-4">
     Connect with us
 </h2>
 <hr>
