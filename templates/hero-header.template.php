@@ -7,7 +7,7 @@
                 SPECIALISTS IN COMMERCIAL & RESIDENTIAL CLEANING
             </p>
             <p class="lead text-white">
-                <a class="btn btn-primary btn-lg">
+                <a href="#contact" class="btn btn-primary btn-lg">
                     Get Started
                 </a>
             </p>
