@@ -1,47 +1,139 @@
-    .icon {
-        list-style: none;
-        color: blue;
-        margin: 0 auto;
-        width: 120px;
-        height: 120px;
-        line-height: 110px;
-        text-align: center;
-        border: 3px solid blue;
-        border-radius: 50%;
-        font-size: 60px;
-        position: relative;
-        transition: background-color 1000ms, color 1000ms;
-        display: block;
+.icon {
+    list-style: none;
+    color: #317bff;
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    line-height: 110px;
+    text-align: center;
+    border: 3px solid #317bff;
+    border-radius: 50%;
+    font-size: 60px;
+    position: relative;
+    transition: background-color 1000ms, color 1000ms;
+    display: block;
+}
+
+.c {
+    padding: 1em 1em;
+}
+
+.icon:hover {
+    border: solid 3px #317bff;
+    color: #fff;
+    cursor: pointer;
+    background-color: #317bff;
+    transition: background-color 1000ms, color 1000ms;
+}
+
+.zoom {
+    /* Aumentamos la anchura y altura durante 2 segundos */
+    transition: width 1s, height 1s, transform 1s;
+    -moz-transition: width 1s, height 1s, -moz-transform 1s;
+    -webkit-transition: width 1s, height 1s, -webkit-transform 1s;
+    -o-transition: width 1s, height 1s, -o-transform 1s;
+}
+
+.zoom:hover {
+    /* tranformamos el elemento al pasar el mouse por encima al doble de
+    su tamaño con scale(2). */
+    transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    /* Firefox */
+    -webkit-transform: scale(1.2);
+    /* Chrome - Safari */
+    -o-transform: scale(1.2);
+    /* Opera */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section-title {
+    color: #212529;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 30;
+    font-family: oswald;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #007bff, #007bff);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 50% 2px;
+    transition: background-size .5s ease;
+}
+
+.section-title:hover {
+    background-size: 100% 2px;
+}
+
+.parent {
+    position: relative;
+    border-radius: 0;
+    min-height: 100vh;
+}
+
+.parent .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/background-header-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: sepia(0.5) brightness(0.5);
+}
+
+.parent .content {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.title-header {
+    font-size: 3.5em;
+}
+
+.hero-description {
+    color: #fff;
+    font-size: 30px;
+    padding-top: 35px;
+}
+
+.middle-content {
+    margin-top: 15%;
+}
+
+.slogan {
+    font-size: 2em;
+    margin-top: 15px;
+}
+
+.about-info {
+    padding: 5%;
+}
+
+.content-text {
+    font-size: 1em;
+}
+
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 420px) {
+    .parent .content h1 {
+        font-size: 2.5em;
     }
-    
-    .c {
-        padding: 1em 1em;
-    }
-    
-    .icon:hover {
-        border: solid 3px blue;
-        color: #fff;
-        cursor: pointer;
-        background-color: blue;
-        transition: background-color 1000ms, color 1000ms;
-    }
-    
-    .zoom {
-        /* Aumentamos la anchura y altura durante 2 segundos */
-        transition: width 1s, height 1s, transform 1s;
-        -moz-transition: width 1s, height 1s, -moz-transform 1s;
-        -webkit-transition: width 1s, height 1s, -webkit-transform 1s;
-        -o-transition: width 1s, height 1s, -o-transform 1s;
-    }
-    
-    .zoom:hover {
-        /* tranformamos el elemento al pasar el mouse por encima al doble de
-       su tamaño con scale(2). */
-        transform: scale(1.2);
-        -moz-transform: scale(1.2);
-        /* Firefox */
-        -webkit-transform: scale(1.2);
-        /* Chrome - Safari */
-        -o-transform: scale(1.2);
-        /* Opera */
-    }
+}

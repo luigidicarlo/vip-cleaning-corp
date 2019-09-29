@@ -1,3 +1,7 @@
+<div id="services"></div>
+<div class="about-info">
+    <h1 class="text-center section-title pt-4">Our Services</h1>
+</div>
 <div class="row">
     <div class="col-sm-6 col-xl-3 col-md-4 col-lg-3 p-2">
         <div data-aos="flip-left"
