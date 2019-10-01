@@ -5,7 +5,7 @@
 <p class="lead">Reach out to us if you need anything.</p>
 <br>
 <div class="d-flex align-items-center justify-content-left">
-    <div style="height: 36px; width: 36px;" class="bg-primary rounded text-white mr-2 p-2">
+    <div style="height: 36px; width: 36px;" class="bg-primary rounded text-white mr-2 p-2 text-center">
         <i class="fa fa-phone"></i>
     </div>
     <p class="text-body mb-0">
@@ -14,7 +14,7 @@
 </div>
 <br>
 <div class="d-flex align-items-center justify-content-left">
-    <div style="height: 36px; width: 36px;" class="bg-primary rounded text-white mr-2 p-2">
+    <div style="height: 36px; width: 36px;" class="bg-primary rounded text-white mr-2 p-2 text-center">
         <i class="fa fa-address-card-o"></i>
     </div>
     <p class="text-body mb-0">
@@ -23,10 +23,19 @@
 </div>
 <br>
 <div class="d-flex align-items-center justify-content-left">
-    <div style="height: 36px; width: 36px;" class="bg-primary rounded text-white mr-2 p-2">
+    <div style="height: 36px; width: 36px;" class="bg-primary rounded text-white mr-2 p-2 text-center">
         <i class="fa fa-envelope"></i>
     </div>
     <p class="text-body mb-0 text-truncate">
         <a href="mailto:vipcleaning2.0@gmail.com">vipcleaning2.0@gmail.com</a>
+    </p>
+</div>
+<br>
+<div class="d-flex align-items-center justify-content-left">
+    <div style="height: 36px; width: 36px;" class="bg-primary rounded text-white mr-2 p-2 text-center">
+        <i class="fa fa-facebook-official"></i>
+    </div>
+    <p class="text-body mb-0 text-truncate">
+        <a target="_blank" href="https://m.facebook.com/VIP-Cleaning-Services-and-Maintenance-Corp-112913576774451/?ref=bookmarks">VIP Cleaning Facebook Page</a>
     </p>
 </div>
